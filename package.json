@@ -1,0 +1,32 @@
+{
+  "name": "expo-ci",
+  "version": "1.0.0",
+  "description": "Publish to Expo on every pull request",
+  "main": "expo-ci.js",
+  "scripts": {
+    "test": "node cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slorber/expo-ci.git"
+  },
+  "keywords": [
+    "expo",
+    "react-native",
+    "ci",
+    "react",
+    "continuous-integration",
+    "continuous",
+    "deployment"
+  ],
+  "author": "Sebastien Lorber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slorber/expo-ci/issues"
+  },
+  "homepage": "https://github.com/slorber/expo-ci#readme",
+  "dependencies": {
+    "octokat": "^0.9.2",
+    "xdl": "^47.0.6"
+  }
+}
